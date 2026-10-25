@@ -1,7 +1,7 @@
 {
-  "name": "dsh-liquid-glass-balance-card",
-  "version": "0.1.0",
-  "description": "DeepSeek Harness (DSH) web GUI plugin: a draggable liquid-glass floating card showing DeepSeek API balance, cumulative spend and token usage in the top-right corner.",
+  "name": "dsh-liquid-glass-balance-card-enhanced",
+  "version": "0.2.0",
+  "description": "Enhanced fork of dsh-liquid-glass-balance-card: a draggable liquid-glass floating card for the DSH web GUI with official DeepSeek balance, cumulative spend and per-model token usage from platform.deepseek.com, plus 7 card themes.",
   "type": "module",
   "main": "lib/index.js",
   "files": [
@@ -11,15 +11,21 @@
     "LICENSE",
     "docs"
   ],
-  "author": "sooodaaa",
+  "author": "sooodaaa (original author) and contributors",
+  "contributors": [
+    {
+      "name": "sooodaaa",
+      "url": "https://github.com/SoDaZilla-zzz"
+    }
+  ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/SoDaZilla-zzz/dsh-liquid-glass-balance-card.git"
+    "url": "git+https://github.com/CyberCoder-ByteWizard/dsh-liquid-glass-balance-card-enhanced.git"
   },
   "bugs": {
-    "url": "https://github.com/SoDaZilla-zzz/dsh-liquid-glass-balance-card/issues"
+    "url": "https://github.com/CyberCoder-ByteWizard/dsh-liquid-glass-balance-card-enhanced/issues"
   },
-  "homepage": "https://github.com/SoDaZilla-zzz/dsh-liquid-glass-balance-card",
+  "homepage": "https://github.com/CyberCoder-ByteWizard/dsh-liquid-glass-balance-card-enhanced",
   "exports": {
     ".": "./lib/index.js",
     "./client": "./lib/client.js",
@@ -43,8 +49,10 @@
     "plugin",
     "balance",
     "quota",
+    "usage",
     "liquid-glass",
-    "draggable"
+    "draggable",
+    "themes"
   ],
   "license": "MIT"
 }
